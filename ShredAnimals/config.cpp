@@ -63,24 +63,9 @@ class CfgPatches
 			"DZ_Animals_Bliss",
 			"DZ_Data_Bliss",
 			"DZ_Data",
-			"DZ_Sounds",
-			"DZ_Sounds_Bliss",
 			"DZ_Surfaces",
 			"DZ_Surfaces_Bliss",
 			"DZ_Weapons_Melee"
-		};
-	};
-	class DZ_Animals_Shred_MuleX
-	{
-		units[]=
-		{
-			"Animal_CapraHircus"
-		};
-		weapons[]={};
-		requiredVersion=0.1;
-		requiredAddons[]=
-		{
-			"DZ_Animals"
 		};
 	};
 };
@@ -7791,12 +7776,6 @@ class CfgAIBehaviours
 		};
 	};
 };
-class CfgNoises
-{
-	class DeerStepNoise
-	{
-		type="sound";
-		strength=10;
 
 class CfgDamages
 {
